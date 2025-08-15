@@ -1,0 +1,12 @@
+- name: Car Fuel Consumption Comparator
+  url: ""
+  summary: Compare multiple cars fuel consunption and CO2 emission
+  tech: ["Android", "Kotlin", "Kotlin-Multiplatform"]
+
+- name: Teaching - Computer Science Projects
+  url: "https://github.com/amendola-scuola"
+  summary: Practical technical teaching covering various subjects of Computer Science and IT, for last year of High School.
+  tech: ["Education", "Programming"]
+  links:
+    - label: Institute (I.T.T.S. A. Volta, Perugia)
+      url: "https://www.avoltapg.edu.it/"

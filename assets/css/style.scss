@@ -1,0 +1,50 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header {
+  width: 310px; 
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 180px;
+  margin: 0 auto 1rem auto;
+}
+
+header p, header h1, header h1 a, header h2, header h3, header h4 {
+  color: #000;
+}
+
+body {
+  font: 15px/1.3 "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  color: #707070;
+}
+
+footer {
+  bottom: 0px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.project-card {
+  border: 1px solid rgba(0,0,0,.08);
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+.project-card h3 {
+  margin-top: .2rem;
+  margin-bottom: .25rem;
+}
+
+.project-card p {
+  margin-bottom: .5rem;
+}
